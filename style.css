@@ -1,0 +1,88 @@
+.container{
+position: absolute;
+left: 0px;
+width: 100%;
+margin: 0 auto;
+    
+}
+
+.logo {
+left: 0px;
+}
+.links {
+float:left;
+}
+
+.col-xs-1{
+text-align: center;
+    margin-top: 10px;
+}
+
+.navbar{
+background-color: darkgrey;
+margin-bottom: -20px;
+
+}
+
+.navbar-brand {
+color: white;
+padding-left: 40px;
+padding-right: 40px;
+
+}
+
+.navbar-kopf{
+margin-top: 10px;
+
+}
+
+.navbar-header {
+padding-left: 10px;
+padding-right: 10px;
+color: black;
+
+
+}
+
+.form-control {
+width: 10px;
+}
+
+.navbar-form {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.1),0 1px 0 rgba(255,255,255,.1);
+}
+
+.banner {
+background-color: aquamarine;
+height: 350px;
+    background-image: url("Banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; <!-- Bildbreite passt sich an Window an -->
+    background-position: center center; <!-- Bild vertikal und horizontal in der Mitte -->
+}
+
+.termine {
+height: 500px;
+}
+
+#terminbeschreibungen {
+
+padding-right: 20px;
+padding-bottom: 20px;
+}
+
+.news {
+background-color: gainsboro;
+height: 500px;
+}
+
