@@ -9,6 +9,10 @@ margin: 0 auto;
     
 }
 
+a {
+color: 9370DB;
+}
+
 .logo {
 left: 0px;
 }
@@ -67,7 +71,7 @@ width: 10px;
 .banner {
 background-color: aquamarine;
 height: 350px;
-    background-image: url("Banner.jpg");
+    background-image: url("Treppenhaus.png");
     background-repeat: no-repeat;
     background-size: cover; <!-- Bildbreite passt sich an Window an -->
     background-position: center center; <!-- Bild vertikal und horizontal in der Mitte -->
@@ -84,9 +88,8 @@ padding-bottom: 20px;
 text-align: justify;
 }
 
-.news {
-background-color: gainsboro;
-height: 500px;
+.aktuelles {
+
 }
 
 h4 {
@@ -188,3 +191,66 @@ align: left;
         color: #333;
     }
 }
+
+.news-rechteck {
+background-color: gainsboro;
+z-index: 2;
+margin-top: -40px;
+width: 50%;
+height: 120%;
+text-align: center;
+vertical-align: middle;
+opacity: 
+
+}
+
+.news-bild1 {
+
+z-index: 1;
+
+width: auto;
+height: 200px;
+    background-image: url("showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; <!-- Bildbreite passt sich an Window an -->
+    background-position: center center; <!-- Bild vertikal und horizontal in der Mitte -->
+}
+
+.news-bild2 {
+z-index: 1;
+width: auto;
+height: 200px;
+    background-image: url("erasmus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; <!-- Bildbreite passt sich an Window an -->
+    background-position: center center; <!-- Bild vertikal und horizontal in der Mitte -->
+}
+.news-bild1:hover {
+opacity: .7
+}
+
+.news-bild3 {
+z-index: 1;
+width: auto;
+height: 200px;
+    background-image: url("diversit%C3%A4t.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; <!-- Bildbreite passt sich an Window an -->
+    background-position: center center; <!-- Bild vertikal und horizontal in der Mitte -->
+}
+
+.textbox {
+text-align: justify;
+}
+
+.pressemitteilung {
+text-align: justify;
+margin-bottom: 20px;
+}
+
+.section-ueberschrift {
+text-align: center;
+vertical-align: middle;
+}
+
+
