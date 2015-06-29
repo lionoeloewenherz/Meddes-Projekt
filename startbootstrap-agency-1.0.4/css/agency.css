@@ -645,15 +645,15 @@ body {
 }
 
 .navbar-default .nav li a {
-  text-transform: uppercase;
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: none;
+  font-family: "Open Sans",sans-serif;
   font-weight: 400;
   letter-spacing: 1px;
   color: black;
 }
 
 .navbar-default .navbar-brand {
-  font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+  font-family: "Open Sans",sans-serif;
   color: #fed136;
 
 }
@@ -722,6 +722,12 @@ padding-top: 50px;}
 
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
   background-color: #8d5ba1;
+}
+
+    @media (min-width: 768px)
+.navbar-right .dropdown-menu {
+  right: 0;
+  left: 0;
 }
 
 ul, menu, dir {
