@@ -1,0 +1,282 @@
+  html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0px;
+    }
+    .gwd-page-container {
+      position: relative;
+      width: 100%;
+      height: 100%;
+    }
+    .gwd-page-content {
+      -webkit-transform: perspective(1400px) matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+      -webkit-transform-style: preserve-3d;
+      position: absolute;
+      background-color: transparent;
+    }
+    .gwd-page-wrapper {
+      position: absolute;
+      -webkit-transform: translateZ(0px);
+      background-color: rgb(255, 255, 255);
+    }
+    .gwd-page-size {
+      width: 1024px;
+      height: 350px;
+    }
+    .gwd-canvas-fwbp {
+      position: absolute;
+      width: 250px;
+      height: 50px;
+      left: 50px;
+      top: 50px;
+      -webkit-transform-style: preserve-3d;
+    }
+    .gwd-canvas-cmth {
+      width: 250px;
+      left: 50px;
+      top: 50px;
+    }
+    .gwd-canvas-u6es {
+      width: 250px;
+    }
+    .gwd-canvas-a1l3 {
+      width: 250px;
+      opacity: 0.75;
+      left: -289.239999999631px;
+      top: 49.7987406639549px;
+    }
+    .gwd-canvas-3in4 {
+      opacity: 0.75;
+      left: -281.439999723614px;
+      top: 250.133851218985px;
+    }
+    .gwd-canvas-i4m3 {
+      opacity: 0.75;
+      left: -280.679999626479px;
+      top: 149.85951754487px;
+    }
+    .gwd-span-jqy3 {
+      font-family: Arial;
+      font-size: 30px;
+    }
+    .gwd-div-83zo {
+      position: absolute;
+      width: 247.6800000159px;
+      height: 48.9600000031px;
+      font-family: 'Times New Roman';
+      text-align: left;
+      color: rgb(0, 0, 0);
+      left: -286.907162663028px;
+      top: 57.3538511625839px;
+    }
+    .gwd-div-f5zg {
+      text-align: center;
+    }
+    .gwd-span-ky2d {
+      font-family: Arial;
+      font-size: 32px;
+      background-color: transparent;
+    }
+    .gwd-div-ifhz {
+      position: absolute;
+      width: 250.560000016px;
+      height: 47.520000003px;
+      font-family: 'Times New Roman';
+      text-align: left;
+      color: rgb(0, 0, 0);
+      left: -281.068000642213px;
+      top: 156.465036831679px;
+    }
+    .gwd-span-r4cu {
+      font-family: Arial;
+      font-size: 32px;
+    }
+    .gwd-div-bd83 {
+      text-align: center;
+    }
+    .gwd-span-4b1h {
+      font-family: Arial;
+      font-size: 32px;
+      background-color: transparent;
+    }
+    .gwd-div-qh04 {
+      position: absolute;
+      width: 246.2400000158px;
+      height: 47.520000003px;
+      font-family: 'Times New Roman';
+      text-align: left;
+      color: rgb(0, 0, 0);
+      left: -278.177886119302px;
+      top: 255.321888827397px;
+    }
+    .gwd-div-dmae {
+      text-align: center;
+    }
+    .gwd-span-hkl5 {
+      font-family: Arial;
+      font-size: 32px;
+      background-color: transparent;
+    }
+    .gwd-img-642r {
+      position: absolute;
+      width: 1050px;
+      height: 390px;
+      left: -14.285714285708px;
+      top: -19.0714285714132px;
+    }
+    .gwd-img-qp1u {
+      position: absolute;
+      width: 550px;
+      height: 366px;
+      left: 301px;
+      top: 370px;
+    }
+    @-webkit-keyframes gwd-gen-s2fwgwdanimation_gwd-keyframes {
+      0% {
+        left: 301px;
+        top: 370px;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+      100% {
+        left: 301px;
+        top: 8px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-sg3cgwdanimation {
+      -webkit-animation: gwd-gen-sg3cgwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-sg3cgwdanimation_gwd-keyframes {
+      0% {
+        left: -289.239999999631px;
+        top: 49.7987406639549px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 48.760000000369px;
+        top: 50.7987406639549px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-lpeugwdanimation {
+      -webkit-animation: gwd-gen-lpeugwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-lpeugwdanimation_gwd-keyframes {
+      0% {
+        left: -281.439999723614px;
+        top: 250.133851218985px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 48.560000276386px;
+        top: 250.133851218985px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-svvngwdanimation {
+      -webkit-animation: gwd-gen-svvngwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-svvngwdanimation_gwd-keyframes {
+      0% {
+        left: -280.679999626479px;
+        top: 149.85951754487px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 52.320000373521px;
+        top: 149.85951754487px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-6fk0gwdanimation {
+      -webkit-animation: gwd-gen-6fk0gwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    #page1.gwd-play-animation .gwd-gen-ud1ugwdanimation {
+      -webkit-animation: gwd-gen-ud1ugwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    #page1.gwd-play-animation .gwd-gen-zglhgwdanimation {
+      -webkit-animation: gwd-gen-zglhgwdanimation_gwd-keyframes 1.5s linear 0s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-zglhgwdanimation_gwd-keyframes {
+      0% {
+        left: -278.177886119302px;
+        top: 255.321888827397px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 51.822113880698px;
+        top: 255.321888827397px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    .gwd-img-uv6z {
+      position: absolute;
+      width: 1050px;
+      height: 390px;
+      left: -1081.5px;
+      top: -19.5px;
+    }
+    .gwd-img-rhmh {
+      position: absolute;
+      width: 1050px;
+      height: 390px;
+      left: -1115.5px;
+      top: -16px;
+    }
+    @-webkit-keyframes gwd-gen-6fk0gwdanimation_gwd-keyframes {
+      0% {
+        left: -286.907162663028px;
+        top: 57.3538511625839px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 52.092837336972px;
+        top: 57.3538511625839px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    @-webkit-keyframes gwd-gen-ud1ugwdanimation_gwd-keyframes {
+      0% {
+        left: -281.068000642213px;
+        top: 156.465036831679px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: 49.931999357787px;
+        top: 156.465036831679px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-s2fwgwdanimation {
+      -webkit-animation: gwd-gen-s2fwgwdanimation_gwd-keyframes 1.7s linear 1.5s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-z6e8gwdanimation_gwd-keyframes {
+      0% {
+        left: -1081.5px;
+        top: -19.5px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: -12px;
+        top: -19.2500000000014px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-z6e8gwdanimation {
+      -webkit-animation: gwd-gen-z6e8gwdanimation_gwd-keyframes 2.4s linear 5.2s 1 normal forwards;
+    }
+    @-webkit-keyframes gwd-gen-9helgwdanimation_gwd-keyframes {
+      0% {
+        left: -1115.5px;
+        top: -16px;
+        -webkit-animation-timing-function: linear;
+      }
+      100% {
+        left: -13.5px;
+        top: -18.5px;
+        -webkit-animation-timing-function: linear;
+      }
+    }
+    #page1.gwd-play-animation .gwd-gen-9helgwdanimation {
+      -webkit-animation: gwd-gen-9helgwdanimation_gwd-keyframes 2.2s linear 12.8s 1 normal forwards;
+    }

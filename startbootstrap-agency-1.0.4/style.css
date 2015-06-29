@@ -1,0 +1,44 @@
+body {
+    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+}
+
+a {
+
+
+}
+
+p {
+    font-size: 14px;
+    line-height: 1.75;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+}
+
+a {
+    color: black;
+}
+
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #8d5ba1;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
