@@ -260,12 +260,20 @@ header {
 
 }
 
+.banner {
+z-index: 20;
+position: relative;
+}
+
     .breadcrumb {
+        position: relative;
   padding: 8px 15px;
   margin-bottom: 20px;
   list-style: none;
   background-color: #ffffff;
   border-radius: 4px;
+    z-index: 20;
+    font-family: "Open Sans"
 }
 
 section {
@@ -716,3 +724,17 @@ margin-left: 5px;
 width: 10%;
 }
     
+.pills-rechts{
+position: fixed;
+top: 60px;
+left: 5px;
+width: 30%;
+z-index: 1;
+bottom: 5px;
+
+}
+
+
+.container-fluid{
+z-index: 2;
+}
