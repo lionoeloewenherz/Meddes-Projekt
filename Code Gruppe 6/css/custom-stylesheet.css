@@ -282,21 +282,21 @@ section {
 
 section-small {
     padding: 30px 0;
-}
+} 
 
 section h2.section-heading {
     margin-top: 0;
-    margin-bottom: 15px;
     font-size: 40px;
+    text-align: center;
 }
-
 section h3.section-subheading {
     margin-bottom: 75px;
     text-transform: none;
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
+
 
 @media(min-width:768px) {
     section {
@@ -309,6 +309,8 @@ section h3.section-subheading {
     margin-bottom: 15px;
     text-transform: none;
     text-align: left;
+    font-family: "Open Sans",sans-serif;
+    
 }
 
 #portfolio .portfolio-item {
@@ -387,17 +389,26 @@ section h3.section-subheading {
     }
 }
 
+.mehr {
+    font-family: "Open Sans",sans-serif;
 
+}
 
 footer {
     padding: 25px 0;
     text-align: center;
 }
 
+.adresse {
+    font-family: "Open Sans",sans-serif;
+    list-style: none;
+
+}
+
 footer span.copyright {
     text-transform: uppercase;
     text-transform: none;
-    font-family: Open+Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",sans-serif;
     line-height: 40px;
 }
 
@@ -405,8 +416,9 @@ footer ul.quicklinks {
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Open Sans",sans-serif;
     line-height: 40px;
+    
 }
 
 ul.social-buttons {
@@ -470,7 +482,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #fed136;
+    webkit-tap-highlight-color: #8d5ba1;
     font-family: "Roboto Slab",sans-serif;
 }
     
