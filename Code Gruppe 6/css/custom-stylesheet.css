@@ -397,6 +397,7 @@ section h3.section-subheading {
 footer {
     padding: 25px 0;
     text-align: center;
+    background-color: #f5f5f5;
 }
 
 .adresse {
@@ -418,9 +419,18 @@ footer ul.quicklinks {
     text-transform: none;
     font-family: "Open Sans",sans-serif;
     line-height: 40px;
+    color: black;
     
 }
+    
+.list-inline {
+      padding-left: 0;
+      margin-left: -5px;
+      list-style: none;
+    color: black;
 
+}
+    
 ul.social-buttons {
     margin-bottom: 0;
 }
